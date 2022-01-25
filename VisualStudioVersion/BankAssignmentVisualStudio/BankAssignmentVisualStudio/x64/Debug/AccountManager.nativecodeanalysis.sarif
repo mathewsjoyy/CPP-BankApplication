@@ -1,0 +1,235 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.30.30706.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF7E2260C80 -il C:\\Users\\mathe\\AppData\\Local\\Temp\\_CL_d0106986ast -typedil -f AccountManager.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1930 -D_MSC_FULL_VER=193030706 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -permissive- -Fox64\\Debug\\AccountManager.obj -Fdx64\\Debug\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\mathe\\OneDrive\\Documents\\YEAR2-MODULES\\C++\\CBankAssignment-VisualStudioVersion-USETHIS\\VisualStudioVersion\\BankAssignmentVisualStudio\\BankAssignmentVisualStudio -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Users\\mathe\\OneDrive\\Documents\\YEAR2-MODULES\\C++\\CBankAssignment-VisualStudioVersion-USETHIS\\VisualStudioVersion\\BankAssignmentVisualStudio\\BankAssignmentVisualStudio\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Users\\mathe\\OneDrive\\Documents\\YEAR2-MODULES\\C++\\CBankAssignment-VisualStudioVersion-USETHIS\\VisualStudioVersion\\BankAssignmentVisualStudio\\BankAssignmentVisualStudio\\Include\\um -I C:\\Users\\mathe\\OneDrive\\Documents\\YEAR2-MODULES\\C++\\CBankAssignment-VisualStudioVersion-USETHIS\\VisualStudioVersion\\BankAssignmentVisualStudio\\BankAssignmentVisualStudio\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/mathe/onedrive/documents/year2-modules/c++/cbankassignment-visualstudioversion-usethis/visualstudioversion/bankassignmentvisualstudio/bankassignmentvisualstudio/transaction.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "af9cd4d1d06157ce4e80a7680b1654e9f7cd85c50f22224bb33611acf0a1a327"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mathe/onedrive/documents/year2-modules/c++/cbankassignment-visualstudioversion-usethis/visualstudioversion/bankassignmentvisualstudio/bankassignmentvisualstudio/transaction.h"
+          },
+          "hashes": {
+            "sha-256": "8179502a6234effe0d91e669913915748dd7c2ee33739e7199036d94aa02756f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mathe/onedrive/documents/year2-modules/c++/cbankassignment-visualstudioversion-usethis/visualstudioversion/bankassignmentvisualstudio/bankassignmentvisualstudio/money.h"
+          },
+          "hashes": {
+            "sha-256": "8e25a960e60eae3653819a43b7c5e3bbe170c54041ddac9cd6574e523cdadbb3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mathe/onedrive/documents/year2-modules/c++/cbankassignment-visualstudioversion-usethis/visualstudioversion/bankassignmentvisualstudio/bankassignmentvisualstudio/savings.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "3c18044b74207d489338a404bde5bc10124c0c5572da5863e2c96866c6f128bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mathe/onedrive/documents/year2-modules/c++/cbankassignment-visualstudioversion-usethis/visualstudioversion/bankassignmentvisualstudio/bankassignmentvisualstudio/savings.h"
+          },
+          "hashes": {
+            "sha-256": "57a6a8b769bef58f43200a31799597ad843e9187a87424205eeaa86b7452925c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mathe/onedrive/documents/year2-modules/c++/cbankassignment-visualstudioversion-usethis/visualstudioversion/bankassignmentvisualstudio/bankassignmentvisualstudio/account.h"
+          },
+          "hashes": {
+            "sha-256": "88168e610153b5bb6f2764526c4d370bf8b612f2e74cf18cc1822edd0d31be5e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mathe/onedrive/documents/year2-modules/c++/cbankassignment-visualstudioversion-usethis/visualstudioversion/bankassignmentvisualstudio/bankassignmentvisualstudio/redblacksearchtree.h"
+          },
+          "hashes": {
+            "sha-256": "70a5d3f23dfe70ac8ef4f7e64daad7ebe636b79f26dd350e1d789e0d4af6e81a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mathe/onedrive/documents/year2-modules/c++/cbankassignment-visualstudioversion-usethis/visualstudioversion/bankassignmentvisualstudio/bankassignmentvisualstudio/interestearning.h"
+          },
+          "hashes": {
+            "sha-256": "f98763b489ee51cd684a59a2d5a1c2a0ae3f49aa78ef1b9c93934a747bb89126"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mathe/onedrive/documents/year2-modules/c++/cbankassignment-visualstudioversion-usethis/visualstudioversion/bankassignmentvisualstudio/bankassignmentvisualstudio/redblacksearchtree.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "d0ef4b26e4de3035ab0db17188ea8f338c62bc4bbebabfacac6630f3a055607b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mathe/onedrive/documents/year2-modules/c++/cbankassignment-visualstudioversion-usethis/visualstudioversion/bankassignmentvisualstudio/bankassignmentvisualstudio/options.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "367d7ed86a0db43b929be03f5be43b77b2ea17b6a9c1ba7a2590ea9bb72aceed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mathe/onedrive/documents/year2-modules/c++/cbankassignment-visualstudioversion-usethis/visualstudioversion/bankassignmentvisualstudio/bankassignmentvisualstudio/options.h"
+          },
+          "hashes": {
+            "sha-256": "7c289b5cb77aa7d48b804142bffc70faeaf53669467f8ab3df1b92a1c7c1758e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mathe/onedrive/documents/year2-modules/c++/cbankassignment-visualstudioversion-usethis/visualstudioversion/bankassignmentvisualstudio/bankassignmentvisualstudio/money.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "22e63f6ca8ee7300733f33cabebb87cd89004002698e3bae1710c7b5b9abf157"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mathe/onedrive/documents/year2-modules/c++/cbankassignment-visualstudioversion-usethis/visualstudioversion/bankassignmentvisualstudio/bankassignmentvisualstudio/interestearning.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "e37788797426810866729532927a58422ee193e17f864b82d9a199cbfeecf2c4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mathe/onedrive/documents/year2-modules/c++/cbankassignment-visualstudioversion-usethis/visualstudioversion/bankassignmentvisualstudio/bankassignmentvisualstudio/current.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "deea5325236c363794f3fae8e13482176c068f886ff9954d05f3ef7aff9c04e9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mathe/onedrive/documents/year2-modules/c++/cbankassignment-visualstudioversion-usethis/visualstudioversion/bankassignmentvisualstudio/bankassignmentvisualstudio/current.h"
+          },
+          "hashes": {
+            "sha-256": "9cdc522aca3183448a411200fb2fb31b74bd04efd2d22f1f9c853b10add5a69b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/mathe/OneDrive/Documents/YEAR2-MODULES/C++/CBankAssignment-VisualStudioVersion-USETHIS/VisualStudioVersion/BankAssignmentVisualStudio/BankAssignmentVisualStudio/LincBank.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "8d8f286ad7988ed006e66ae2d9deeef40d5177cf9bf28e5942661368144b716a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mathe/onedrive/documents/year2-modules/c++/cbankassignment-visualstudioversion-usethis/visualstudioversion/bankassignmentvisualstudio/bankassignmentvisualstudio/incorrectamountofarguments.h"
+          },
+          "hashes": {
+            "sha-256": "a4c06e72192a34ea81a59e0edb7861c8fab90cf4bfaccd4fa7c0cdba8bf2b9eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mathe/onedrive/documents/year2-modules/c++/cbankassignment-visualstudioversion-usethis/visualstudioversion/bankassignmentvisualstudio/bankassignmentvisualstudio/accountmanager.h"
+          },
+          "hashes": {
+            "sha-256": "6f82eff03fffe8e618a89eafb4294acb901ed11b8c829a14a557958c5854c449"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mathe/onedrive/documents/year2-modules/c++/cbankassignment-visualstudioversion-usethis/visualstudioversion/bankassignmentvisualstudio/bankassignmentvisualstudio/incorrectargumentvalue.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "3ce1e17b9fee351c716826af22630cfa1f70306d6709211a5ee26b883ba98aa3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mathe/onedrive/documents/year2-modules/c++/cbankassignment-visualstudioversion-usethis/visualstudioversion/bankassignmentvisualstudio/bankassignmentvisualstudio/incorrectargumentvalue.h"
+          },
+          "hashes": {
+            "sha-256": "7a33e66b62ae70ab58aef3b3877a75bd142b5bde707928bfa95c590e16e7e44e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mathe/onedrive/documents/year2-modules/c++/cbankassignment-visualstudioversion-usethis/visualstudioversion/bankassignmentvisualstudio/bankassignmentvisualstudio/incorrectamountofarguments.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "1fb3a2d5b3a8ded8af8f1b1aa38e8cbdcb18cee3c4cd47ba0c9d077958d8ddc6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mathe/onedrive/documents/year2-modules/c++/cbankassignment-visualstudioversion-usethis/visualstudioversion/bankassignmentvisualstudio/bankassignmentvisualstudio/accountmanager.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "0e621d1278df8d19ab1abbbdf7143db49437b1f089608f1756eda4040177b7c6"
+          }
+        }
+      ]
+    }
+  ]
+}
